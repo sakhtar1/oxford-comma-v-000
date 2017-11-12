@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  
-    array.join(", ") + ", and "
+    last = array.pop
+    array.join(", ") + ", and " 
 
 end
